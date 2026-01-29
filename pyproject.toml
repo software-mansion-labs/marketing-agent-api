@@ -1,0 +1,23 @@
+[project]
+name = "marketing-agent-api"
+version = "0.1.0"
+description = "The project provides an api_crawler module with a multi-agent system for searching, using an API, for posts to advertise a product on. It also comes with an example config file with the description of one of Software Mansion's products — React Native Executorch. Any scraper can be used by the system, here it uses an example of Reddit."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "langchain>=1.0.8",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.6",
+    "langchain-openai>=1.0.3",
+    "langgraph>=1.0.3",
+    "more-itertools>=10.8.0",
+    "praw>=7.8.1",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "lefthook>=2.0.15",
+]
