@@ -3,8 +3,7 @@ import logging
 from dotenv import load_dotenv
 
 import config
-from api_crawler.base_scraper import BaseScraper
-from api_crawler.crawler import Crawler
+from api_crawler.base_scraper import BaseScraper, Crawler
 from scrapers import SubredditScraper
 
 logging.basicConfig(
